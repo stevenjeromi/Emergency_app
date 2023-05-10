@@ -38,21 +38,25 @@ class decision extends StatelessWidget {
               height: 120,
             ),
             Column(children: [
-              SizedBox(
-                height: 60,
-                width: 400,
-                child: ElevatedButton(
-                  onPressed: () {
-                    Navigator.pushNamed(context, 'userlogin');
-                  },
-                  child: Text(
-                    'User',
-                    style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
-                  ),
-                  style: ElevatedButton.styleFrom(
-                    primary: Color.fromARGB(760, 249, 26, 26),
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(20),
+              Padding(
+                padding: const EdgeInsets.only(left: 20, right: 20),
+                child: SizedBox(
+                  height: 60,
+                  width: 400,
+                  child: ElevatedButton(
+                    onPressed: () {
+                      Navigator.pushNamed(context, 'userlogin');
+                    },
+                    child: Text(
+                      'User',
+                      style:
+                          TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+                    ),
+                    style: ElevatedButton.styleFrom(
+                      primary: Color.fromARGB(760, 249, 26, 26),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(20),
+                      ),
                     ),
                   ),
                 ),
@@ -68,19 +72,23 @@ class decision extends StatelessWidget {
               SizedBox(
                 height: 30,
               ),
-              SizedBox(
-                height: 60,
-                width: 400,
-                child: ElevatedButton(
-                  onPressed: () {},
-                  child: Text(
-                    'SERVICE',
-                    style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
-                  ),
-                  style: ElevatedButton.styleFrom(
-                    primary: Color.fromARGB(760, 249, 26, 26),
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(20),
+              Padding(
+                padding: const EdgeInsets.only(left: 20, right: 20),
+                child: SizedBox(
+                  height: 60,
+                  width: 400,
+                  child: ElevatedButton(
+                    onPressed: () {},
+                    child: Text(
+                      'SERVICE',
+                      style:
+                          TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+                    ),
+                    style: ElevatedButton.styleFrom(
+                      primary: Color.fromARGB(760, 249, 26, 26),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(20),
+                      ),
                     ),
                   ),
                 ),

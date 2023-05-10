@@ -1,3 +1,5 @@
+import 'package:emergency_app/screens/Blooddonation/bloodrequest.dart';
+import 'package:emergency_app/screens/Blooddonation/bloodrequest.dart';
 import 'package:emergency_app/screens/otpverify.dart';
 import 'package:emergency_app/screens/resetpasswd.dart';
 import 'package:emergency_app/screens/splash.dart';
@@ -32,6 +34,7 @@ class MyApp extends StatelessWidget {
         'otpverify': (context) => const otpverify(),
         'usermain': (context) => const usermain(),
         'usermessage': (context) => const usermessage(),
+        'bloodrequest': (context) => BloodRequest(),
       },
     );
   }

@@ -1,4 +1,4 @@
-// ignore_for_file: unused_local_variable
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:humanitarian_icons/humanitarian_icons.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
@@ -214,13 +214,13 @@ class _usermainState extends State<usermain> {
                               height: 10,
                             ),
                             const Icon(
-                              HumanitarianIcons.alert,
+                              FontAwesomeIcons.droplet,
                               color: Colors.black,
                               size: 55,
                             ),
                             SizedBox(height: 12),
                             const Text(
-                              'Danger',
+                              'Blood',
                               style: TextStyle(
                                   color: Colors.black,
                                   fontSize: 17,
@@ -231,7 +231,7 @@ class _usermainState extends State<usermain> {
                       ),
                     ),
                     onTap: () {
-                      Navigator.pushNamed(context, 'usermessage');
+                      Navigator.pushNamed(context, 'bloodrequest');
                     },
                   ),
                 ],
