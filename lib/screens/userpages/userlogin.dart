@@ -1,6 +1,6 @@
 import 'dart:ui';
-import 'package:emergency_app/screens/userforgotpssw.dart';
-import 'package:emergency_app/screens/usermain.dart';
+
+import 'package:emergency_app/screens/userpages/userforgotpssw.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';

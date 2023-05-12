@@ -97,7 +97,7 @@ class otpverify extends StatelessWidget {
                     onPressed: () {
                       Navigator.pushNamed(context, 'usermain');
                     },
-                    child: Text(
+                    child: const Text(
                       'Verify',
                       style: TextStyle(
                           fontSize: 20, fontWeight: FontWeight.normal),

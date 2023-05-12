@@ -1,4 +1,3 @@
-import 'package:emergency_app/screens/userlogin.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
@@ -78,7 +77,9 @@ class decision extends StatelessWidget {
                   height: 60,
                   width: 400,
                   child: ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.pushNamed(context, 'select');
+                    },
                     child: Text(
                       'SERVICE',
                       style:

@@ -1,7 +1,8 @@
-import 'package:emergency_app/screens/Blooddonation/bloodgroup.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
+
+import 'bloodgroup.dart';
 
 class BloodRequest extends StatelessWidget {
   BloodRequest({super.key});
@@ -78,10 +79,10 @@ class BloodRequest extends StatelessWidget {
               child: ElevatedButton(
                 onPressed: () {},
                 child: Text(
-                  'Request',
+                  ' Initiate Request',
                   style: TextStyle(
                       color: Colors.white,
-                      fontSize: 40,
+                      fontSize: 30,
                       fontWeight: FontWeight.bold),
                 ),
                 style: ElevatedButton.styleFrom(
