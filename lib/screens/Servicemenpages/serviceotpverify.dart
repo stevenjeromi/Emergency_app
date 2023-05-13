@@ -1,4 +1,5 @@
 import 'package:emergency_app/screens/Servicemenpages/service_main_pages/blooddonate_main.dart';
+import 'package:emergency_app/screens/Servicemenpages/service_main_pages/other_services.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
@@ -102,7 +103,13 @@ class serviceotpverify extends StatelessWidget {
                           MaterialPageRoute(
                               builder: (context) => BloodDonateMain()),
                         );
-                      } else {}
+                      } else {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => otherservices()),
+                        );
+                      }
                     },
                     child: Text(
                       'Verify',

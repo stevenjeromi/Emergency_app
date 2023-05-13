@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:emergency_app/screens/Servicemenpages/service_main_pages/blooddonate_main.dart';
+import 'package:emergency_app/screens/Servicemenpages/service_main_pages/other_services.dart';
 import 'package:emergency_app/screens/Servicemenpages/servicecreate.dart';
 import 'package:emergency_app/screens/Servicemenpages/serviceforgotpassword.dart';
 import 'package:emergency_app/screens/userpages/userforgotpssw.dart';
@@ -124,7 +125,12 @@ class servicelogin extends StatelessWidget {
                       MaterialPageRoute(
                           builder: (context) => BloodDonateMain()),
                     );
-                  else {}
+                  else {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => otherservices()),
+                    );
+                  }
                 },
                 child: Text(
                   'Sign in',

@@ -40,6 +40,9 @@ dependencies:
   flutter_ripple: ^0.0.3
   avatar_glow: ^2.0.2
   font_awesome_flutter: ^10.4.0
+  flutter_map: ^4.0.0
+  latlong2: ^0.8.1
+  auto_size_text: ^3.0.0
 
 dev_dependencies:
   flutter_test:
